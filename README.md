@@ -29,7 +29,7 @@ npm run build
 
 # deploy
 >แก้ไข vite.config.js ให้มี base ตามด้วย "/<REPO NAME>/"
-
+```
 > `git add dist -f`
 
 >`git commit -m "deploy"`
