@@ -24,6 +24,16 @@ npm run dev
 
 ### Compile and Minify for Production
 
-```sh
+```
+npm run build
+
+# deploy
+>แก้ไข vite.config.js ให้มี base ตามด้วย "/<REPO NAME>/"
+```bash
 npm run build
 ```
+> `git add dist -f`
+
+>`git commit -m "deploy"
+
+> `git subtree push --prefix dist origin gh-pages`
